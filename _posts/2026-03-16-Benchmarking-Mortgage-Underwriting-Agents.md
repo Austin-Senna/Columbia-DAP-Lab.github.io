@@ -1,7 +1,7 @@
 ---
 layout: post
 color: '#0c6a99'
-title: "Benchmarking Morgage Underwriting Agents"
+title: "Benchmarking Mortgage Underwriting Agents"
 date: 2026-03-16
 categories: [general]
 tags: [test]
@@ -9,18 +9,18 @@ authors:
   - name: "Matthew Toles"
     url: "https://www.matoles.com/"
 excerpt: "Can Agents Assist in Mortgage Underwriting?"
-slug: "benchmarking-morgage-underwriting-agents"
+slug: "benchmarking-mortgage-underwriting-agents"
 ---
 
 # TidalWave Benchmark Technical Report - External
 
 # Executive Summary
 
-This report contains the findings and takeaways of the mortgage agent benchmark project, a collaboration between TidalWave and the NLP Lab at Columbia University in fall-winter 2025. We created a 90-question dataset based on 10 applicant personas spanning a range of realistic, natural questions expected to be asked to Solo by loan officers in the loan origination process. We find that SOLO with the Claude 4.5 backend (the strongest model available during initial development) outperforms vanilla Claude 4.5, achieving an F1 accuracy of 84.2 vs. 71.4 (+12.8). We also demonstrate SOLO-v2-beta (currently unreleased) achieves 88.0% F1 accuracy. We notice that SOLO achieves especially strong performance gains over baseline in boolean questions, indicating strong domain expertise. SOLO-v2-beta achieves performance gain over both SOLO in all other categories and over baseline in all categories. Overall, we demonstrate both SOLO and SOLO-v2-beta achieve strong accuracy on realistic queries, comparable to human performance.
+This report contains the findings and takeaways of the mortgage agent benchmark project, a collaboration between TidalWave and the NLP Lab at Columbia University in fall-winter 2025. We created a 90-question dataset based on 10 applicant personas spanning a range of realistic, natural questions expected to be asked to Tidalwave's AI agent Solo by loan officers in the loan origination process. We find that SOLO with the Claude 4.5 backend (the strongest model available during initial development) outperforms vanilla Claude 4.5, achieving an F1 accuracy of 84.2 vs. 71.4 (+12.8). We also demonstrate SOLO-v2-beta (currently unreleased) achieves 88.0% F1 accuracy. We notice that SOLO achieves especially strong performance gains over baseline in boolean questions, indicating strong domain expertise. SOLO-v2-beta achieves performance gain over both SOLO in all other categories and over baseline in all categories. Overall, we demonstrate both SOLO and SOLO-v2-beta achieve strong accuracy on realistic queries, comparable to human performance.
 
 # Benchmark
 
-We aimed to create a benchmark to evaluate the accuracy of SOLO and related agents when responding to realistic questions by loan officers. To contain the scope of this benchmark to core SOLO chatbot features, we defined its scope as:
+We aimed to create a benchmark to evaluate the accuracy of Tidalwave's AI agent Solo and related agents when responding to realistic questions by loan officers. To contain the scope of this benchmark to core SOLO chatbot features, we defined its scope as:
 
 ### In Scope
 
