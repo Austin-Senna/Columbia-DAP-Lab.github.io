@@ -12,6 +12,29 @@ excerpt: "Can Agents Assist in Mortgage Underwriting?"
 slug: "benchmarking-mortgage-underwriting-agents"
 ---
 
+<style>
+  .post-body table {
+    border-collapse: collapse;
+    margin: 1.5em auto;
+    width: auto;
+    max-width: 100%;
+    font-size: 0.9em;
+  }
+  .post-body table th,
+  .post-body table td {
+    border: 1px solid #ddd;
+    padding: 0.5em 1em;
+    text-align: left;
+  }
+  .post-body table th {
+    background: #f0f4f8;
+    font-weight: 600;
+  }
+  .post-body table tr:nth-child(even) td {
+    background: #f9f9f9;
+  }
+</style>
+
 # TidalWave Benchmark Technical Report - External
 
 # Executive Summary
@@ -133,7 +156,7 @@ Where `answer_instruction` is one of
 
 # Results & Discussion
 
-![F1 accuracy for SOLO-v2-beta, SOLO (Claude 4.5 backend) and Baseline Claude 4.5](/files/images/posts/benchmarking-mortgage-underwriting-agents/image.png)
+{% include blog-image.html file="image.png" alt="F1 accuracy for SOLO-v2-beta, SOLO (Claude 4.5 backend) and Baseline Claude 4.5" %}
 
 F1 accuracy for SOLO-v2-beta, SOLO (Claude 4.5 backend) and Baseline Claude 4.5
 
@@ -143,7 +166,7 @@ We also observe uniformly strong performance by SOLO-v2-beta (89%) compared to C
 
 Although strong, we note a systemic bias in SOLO-v2-beta where it tends to omit transactions.
 
-![SOLO-v2-beta failure modes. From top-right counterclockwise: answer is missing at least one transaction; answer is missing at least one transaction and includes at least one irrelevant transaction; answer contains at least one relevant transaction; boolean question is answered incorrectly.](/files/images/posts/benchmarking-mortgage-underwriting-agents/chart_(3).png)
+{% include blog-image.html file="chart_(3).png" alt="SOLO-v2-beta failure modes. From top-right counterclockwise: answer is missing at least one transaction; answer is missing at least one transaction and includes at least one irrelevant transaction; answer contains at least one relevant transaction; boolean question is answered incorrectly." %}
 
 SOLO-v2-beta failure modes. From top-right counterclockwise: answer is missing at least one transaction; answer is missing at least one transaction and includes at least one irrelevant transaction; answer contains at least one relevant transaction; boolean question is answered incorrectly.
 
