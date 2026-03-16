@@ -133,7 +133,7 @@ Where `answer_instruction` is one of
 
 # Results & Discussion
 
-![F1 accuracy for SOLO-v2-beta, SOLO (Claude 4.5 backend) and Baseline Claude 4.5](TidalWave%20Benchmark%20Technical%20Report%20-%20External/image.png)
+![F1 accuracy for SOLO-v2-beta, SOLO (Claude 4.5 backend) and Baseline Claude 4.5](/files/images/posts/benchmarking-mortgage-underwriting-agents/image.png)
 
 F1 accuracy for SOLO-v2-beta, SOLO (Claude 4.5 backend) and Baseline Claude 4.5
 
@@ -143,7 +143,7 @@ We also observe uniformly strong performance by SOLO-v2-beta (89%) compared to C
 
 Although strong, we note a systemic bias in SOLO-v2-beta where it tends to omit transactions.
 
-![SOLO-v2-beta failure modes. From top-right counterclockwise: answer is missing at least one transaction; answer is missing at least one transaction and includes at least one irrelevant transaction; answer contains at least one relevant transaction; boolean question is answered incorrectly.](TidalWave%20Benchmark%20Technical%20Report%20-%20External/chart_(3).png)
+![SOLO-v2-beta failure modes. From top-right counterclockwise: answer is missing at least one transaction; answer is missing at least one transaction and includes at least one irrelevant transaction; answer contains at least one relevant transaction; boolean question is answered incorrectly.](/files/images/posts/benchmarking-mortgage-underwriting-agents/chart_(3).png)
 
 SOLO-v2-beta failure modes. From top-right counterclockwise: answer is missing at least one transaction; answer is missing at least one transaction and includes at least one irrelevant transaction; answer contains at least one relevant transaction; boolean question is answered incorrectly.
 
@@ -227,5 +227,3 @@ Each question is assigned one or more task labels indicating the type of analysi
 | `statement_integrity` | 10 | 1 | 11 |
 | `metadata_consistency` | 1 | 5 | 6 |
 | `pooling` | 0 | 1 | 1 |
-
-[https://www.notion.so](https://www.notion.so)
