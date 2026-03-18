@@ -62,6 +62,24 @@
   description:
   bio:
 
+- title: 'Modeling Sequence Data in Financial Services'
+  tag: Seminar
+  date: '2026-03-24'
+  who: Igor Melnyk
+  where: CSB 453
+  time: 12PM
+  description: |
+    Financial customer data, including transactions, payments, digital interactions, etc,
+    is inherently sequential, sparse, irregular, and challenging to model at scale.
+    This talk presents a few recent developments in modeling and analyzing such complex event streams.
+    First, we discuss tokenization strategies for efficiently encoding heterogeneous event features.
+    Next, we show how synthetic task instruction prompts can enable robust, self-supervised
+    multi-task learning directly from unlabeled data. Finally, we outline a method for diagnosing
+    model blind spots through LLM-driven explanations. Together, these approaches highlight
+    our ongoing progress in enabling scalable, flexible, and interpretable modeling of
+    complex financial behaviors.
+  bio:
+
 - title: 'AI Agents as Universal Task Solvers'
   tag: Seminar
   date: '2026-02-27'
