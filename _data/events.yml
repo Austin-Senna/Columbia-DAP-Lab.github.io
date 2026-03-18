@@ -53,14 +53,14 @@
     advised by Anastasia Ailamaki on hardware-conscious database systems. In his
     free time, Utku performs theatrical acting and plays classical guitar.
 
-- title: 'TBA'
-  tag: Seminar
-  date: '2026-03-31'
-  who: Vaikkunth Mugunthan
-  where: CSB 453
-  time: 12PM
-  description:
-  bio:
+# - title: 'TBA'
+#   tag: Seminar
+#   date: '2026-03-31'
+#   who: Vaikkunth Mugunthan
+#   where: CSB 453
+#   time: 12PM
+#   description:
+#   bio:
 
 - title: 'Modeling Sequence Data in Financial Services'
   tag: Seminar
