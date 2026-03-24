@@ -340,3 +340,10 @@
   advisor:
     - Tianyi Peng
     - Kostis Kaffes
+
+- name: Austin Senna Wijaya
+  homepage: https://github.com/Austin-Senna
+  image: /files/images/avatar/austin_senna_wijaya.jpg
+  category: Student
+  advisor:
+    - Eugene Wu
