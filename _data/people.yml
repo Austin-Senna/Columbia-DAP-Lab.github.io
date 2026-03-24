@@ -366,14 +366,12 @@
     - Tianyi Peng
     - Kostis Kaffes
 
-<<<<<<< HEAD
 - name: Austin Senna Wijaya
   homepage: https://github.com/Austin-Senna
   image: /files/images/avatar/austin_senna_wijaya.jpg
   category: Student
   advisor:
     - Eugene Wu
-=======
 - name: Shachaf Rispler
   homepage: https://shachafha.github.io/
   image: /files/images/avatar/shachaf_rispler.png
@@ -388,4 +386,3 @@
   advisor:
     - Zhuo Zhang
     - Lydia Chilton
->>>>>>> 916ac59d184f1305660812f658704b5db93d7cfd
