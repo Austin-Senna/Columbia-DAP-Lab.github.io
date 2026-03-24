@@ -175,6 +175,16 @@
   image: /files/images/avatar/yusen_zhang.png
   category: Postdoc
 
+- name: Will Ke Wang
+  homepage: https://scholar.google.com/citations?user=H79_VXMAAAAJ&hl=en
+  image: /files/images/avatar/will_wang.jpg
+  category: Postdoc
+
+- name: Zhihan Jiang
+  homepage: https://zhihanjiang.com
+  image: /files/images/avatar/zhihan_jiang.jpg
+  category: Postdoc
+
 # Ph.D.
 
 - name: Jiakai Xu
@@ -202,7 +212,7 @@
   category: PhD
 
 - name: Matthew Toles
-  homepage: https://matoles.com/
+  # homepage: https://matoles.com/
   image: /files/images/avatar/matthew_toles.jpg
   category: PhD
 
@@ -310,6 +320,21 @@
   image: /files/images/avatar/siyan_li.jpg
   category: PhD
 
+- name: Shuze Chen
+  homepage: https://shuzechen.github.io/
+  image: /files/images/avatar/shuze_chen.jpg
+  category: PhD
+
+- name: Xuanming Billy Zhang
+  homepage: https://billyzhang24kobe.github.io/
+  image: /files/images/avatar/xuanming_zhang.jpg
+  category: PhD
+
+- name: Mengyuan Millie Wu
+  homepage: http://milliewu.io/
+  image: /files/images/avatar/millie_wu.jpg
+  category: PhD
+
 # MS/Undergraduate Students
 
 - name: Tianle Zhou
@@ -341,9 +366,26 @@
     - Tianyi Peng
     - Kostis Kaffes
 
+<<<<<<< HEAD
 - name: Austin Senna Wijaya
   homepage: https://github.com/Austin-Senna
   image: /files/images/avatar/austin_senna_wijaya.jpg
   category: Student
   advisor:
     - Eugene Wu
+=======
+- name: Shachaf Rispler
+  homepage: https://shachafha.github.io/
+  image: /files/images/avatar/shachaf_rispler.png
+  category: Student
+  advisor:
+    - Eugene Wu
+
+- name: Aryan Kaul
+  homepage: https://akaul02.github.io
+  image: /files/images/avatar/aryan_kaul.png
+  category: Student
+  advisor:
+    - Zhuo Zhang
+    - Lydia Chilton
+>>>>>>> 916ac59d184f1305660812f658704b5db93d7cfd
