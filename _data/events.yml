@@ -9,17 +9,127 @@
 # link: title URL
 # video: link to youtube recording
 # slides: link to slides
+# image: relative path (e.g., /files/images/events/foo.jpg) or absolute URL
 # 
 #
 
-- title: 'TBA'
+- title: 'Scalable Image AI via Self-Designing Storage'
   tag: Seminar
-  date: '2026-03-31'
-  who: Vaikkunth Mugunthan
+  date: '2026-04-21'
+  who: Utku Sirin
   where: CSB 453
   time: 12PM
-  description:
+  description: >
+    Image AI is very expensive. We show that the root cause of the problem is a
+    long-overlooked and largely unexplored dimension: storage. Storage determines
+    how much data is moved and processed. Most images today are stored as JPEG files.
+    JPEG is designed for the human eye. Image AI applications, however, span a wide
+    range of domains, such as histopathology and robotics, each with very different
+    characteristics and requirements. Using a single file format across all applications
+    and domains results in inefficient and costly AI systems. This talk presents Image
+    Calculator, a self-designing file format that finds the optimal storage for a given
+    image AI task. Image Calculator achieves this by identifying design primitives for
+    image storage and co-designing image storage with application domains. It creates
+    a design space of thousands of candidate formats based on these design primitives,
+    each capable of storing and representing data differently, with varying accuracy
+    and cost trade-offs. It efficiently searches within this design space by using
+    locality among its file formats. It exploits the inherent frequency structure
+    in image data to efficiently serve inference and training requests. We evaluate
+    Image Calculator across diverse datasets, tasks, models, and hardware, and show
+    that it can generate file formats that improve accuracy by up to 8%, reduce
+    end-to-end inference and training time by up to 14.2x, and reduce storage space
+    by up to 8.2x compared to state-of-the-art image file formats.
+  bio: >
+    Utku Sirin is a postdoctoral researcher at the Data and AI Systems Lab at Harvard
+    University, advised by Stratos Idreos. He is interested in making AI systems
+    efficient via vertical integration and principled design. His work on images
+    led to the first image file format designed for AI workloads, Image Calculator,
+    enabling a data-centric view of image AI pipelines and novel system architectures.
+    Utku received the Microsoft Research PhD Fellowship in 2017 and the Swiss National
+    Science Foundation Postdoctoral Fellowship in 2020 and 2023. He is also a winner
+    of the ACM SIGMOD Student Research Competition (2017) and a recipient of distinguished
+    reviewer awards at ICDE 2023, EDBT 2025, and VLDB 2025. Prior to Harvard, Utku
+    earned his PhD from the Data-Intensive Applications and Systems Lab at EPFL,
+    advised by Anastasia Ailamaki on hardware-conscious database systems. In his
+    free time, Utku performs theatrical acting and plays classical guitar.
+
+# - title: 'TBA'
+#   tag: Seminar
+#   date: '2026-03-31'
+#   who: Vaikkunth Mugunthan
+#   where: CSB 453
+#   time: 12PM
+#   description:
+#   bio:
+
+- title: 'Modeling Sequence Data in Financial Services'
+  tag: Seminar
+  date: '2026-03-24'
+  who: Igor Melnyk
+  where: CSB 453
+  time: 12PM
+  description: |
+    Financial customer data, including transactions, payments, digital interactions, etc,
+    is inherently sequential, sparse, irregular, and challenging to model at scale.
+    This talk presents a few recent developments in modeling and analyzing such complex event streams.
+    First, we discuss tokenization strategies for efficiently encoding heterogeneous event features.
+    Next, we show how synthetic task instruction prompts can enable robust, self-supervised
+    multi-task learning directly from unlabeled data. Finally, we outline a method for diagnosing
+    model blind spots through LLM-driven explanations. Together, these approaches highlight
+    our ongoing progress in enabling scalable, flexible, and interpretable modeling of
+    complex financial behaviors.
   bio:
+
+- title: 'AI Agents as Universal Task Solvers'
+  tag: Seminar
+  date: '2026-02-27'
+  who: Stefano Soatto, Alessandro Achille
+  link: https://aws.amazon.com/blogs/opensource/introducing-strands-labs-get-hands-on-today-with-state-of-the-art-experimental-approaches-to-agentic-development/
+  where: CSB 453
+  time: 3PM
+  description: |
+    Scaling laws predict that AI agents will steadily improve and eventually exceed human
+    performance across a wide range of tasks. Yet at the limit of these scaling laws lies a form of
+    inference that involves no intelligence at all: with increasing compute and memory, a model can
+    brute-force any verifiable task without learning anything from past experience. Universally
+    optimal inference, pioneered by Solomonoff and Levin, requires no insight — only exhaustive search.
+
+    This raises a basic question: if scaling alone does not foster intelligence, what does? And
+    if performance on downstream tasks is insufficient to measure intelligence, what is?
+
+    In this talk, I will point to the critical role of time in both analyzing and fostering the
+    emergent reasoning behavior of AI agents. Building on insights that Solomonoff sketched in 1985
+    but that remained theoretical curiosities for decades, I will show that the value of learning
+    is measured not by a reduction in uncertainty — the core of inductive learning and
+    generalization — but by a reduction in the time needed to solve new tasks. A key result is
+    that data can make a universal solver exponentially faster, with the speed-up tightly
+    characterized by a single quantity: the algorithmic mutual information between past
+    experience and the solution to unforeseen tasks.
+
+    Connecting these ideas to modern AI requires rethinking what computation means for systems
+    powered by large language models. Unlike minimalistic models of computation such as Turing
+    Machines, LLMs are stochastic dynamical systems whose computational elements — context,
+    weights, activations, chain-of-thought — do not resemble a “program” in the ordinary sense.
+    I will show that LLMs are instead maximalistic models of computation: universal, like Turing
+    Machines, but operating through entirely different and in many ways antithetical mechanisms.
+    Programming such systems can be achieved through two-level control strategies — open-loop
+    planning and closed-loop feedback — in abstract space, a framework we have recently
+    released Strands Agents open-source library (www.strandsagents.com).
+
+    Once time is properly accounted for, scaling laws reveal an inversion: beyond a critical point,
+    increasing resources improve benchmark accuracy while diminishing conceptual depth— a savant
+    regime in which models improve while learning less. I will discuss what this means for
+    how we build, evaluate, and scale AI agents.
+  bio: |
+    **Stefano Soatto** is a Vice President at AWS Agentic AI, and a Professor of Computer Science
+    at UCLA. He received his PhD in Control and Dynamical Systems from the California Institute of
+    Technology, his D.Ing from the University of Padova, Italy and was a postdoctoral scholar at
+    Harvard University. He is a Fellow of the ACM and of the IEEE.
+
+    **Alessandro Achille** is a Principal Applied Scientist in the AWS Agentic AI team, which he
+    joined after earning his PhD from UCLA in 2019. His research focuses on machine learning
+    foundations, including information theory, machine unlearning, logic, and hardware-software
+    co-design, with applications to computer vision and AI agents.
 
 - title: 'We solved trust for AI Agents in 1973 (we just forgot)'
   tag: Seminar
@@ -72,7 +182,7 @@
     strategy to hands-on project delivery from POC to production. Asaf also
     co-founded Multinear, an open-source platform for evaluating and maintaining GenAI systems.
 
-- title: 'AI for IT Automation: Benchmarking and Agent Development Research @ IBM'
+- title: 'AI for IT Automation @ IBM'
   tag: Seminar
   date: '2025-12-16'
   who: Saurabh Jha, Yu Deng, Daby Sow, Ruchi Mahindru
@@ -211,6 +321,7 @@
     private, invitation-only session for DAPLab industry partners, providing an opportunity
     to deeply engage with Columbia students and faculty, as well as fellow partners, through
     focused discussions and collaborative activities.
+  image: /files/images/events/20251027_workshop_2963_alex.JPG
 
 - title: 'Disaggregated LLM Inference: Past, Present, and Future'
   tag: Seminar
